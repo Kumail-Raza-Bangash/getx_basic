@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_basic/main.dart';
 
 class PageOne extends StatelessWidget {
   const PageOne({super.key});
@@ -14,7 +13,7 @@ class PageOne extends StatelessWidget {
           height: 70,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
-              color: Color(0xFffbc33e)
+              color: const Color(0xFffbc33e)
           ),
           child: ElevatedButton(
             style: ElevatedButton.styleFrom(
@@ -23,7 +22,7 @@ class PageOne extends StatelessWidget {
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0),
               ),),
-            onPressed: () => Get.to(HomePage()),
+            onPressed: () => Get.back(),
             child: Text(
               "Home",
               style: TextStyle(

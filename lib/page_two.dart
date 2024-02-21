@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class PageTwo extends StatelessWidget {
   const PageTwo({super.key});
@@ -15,11 +16,27 @@ class PageTwo extends StatelessWidget {
         ),
       ),
       body:
-        const Center(
+        Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Text(
+                Get.arguments['price'] ?? 'Exploration Text', 
+                style: const TextStyle(
+                  fontSize: 20,
+                  color: Colors.red,
+                  fontWeight: FontWeight.bold
+                ),
+              ),
 
+              Text(
+                Get.arguments['city'] ?? '[CITY]', 
+                style: const TextStyle(
+                  fontSize: 20,
+                  color: Colors.red,
+                  fontWeight: FontWeight.bold
+                ),
+              )
             ],
 
           ),
