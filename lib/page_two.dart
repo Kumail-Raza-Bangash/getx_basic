@@ -21,6 +21,16 @@ class PageTwo extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
+                Get.arguments['course'] ?? '[PRICE]', 
+                style: const TextStyle(
+                  fontSize: 20,
+                  color: Colors.red,
+                  fontWeight: FontWeight.bold
+                ),
+              ),
+
+              
+              Text(
                 Get.arguments['price'] ?? 'Exploration Text', 
                 style: const TextStyle(
                   fontSize: 20,
@@ -29,14 +39,6 @@ class PageTwo extends StatelessWidget {
                 ),
               ),
 
-              Text(
-                Get.arguments['city'] ?? '[CITY]', 
-                style: const TextStyle(
-                  fontSize: 20,
-                  color: Colors.red,
-                  fontWeight: FontWeight.bold
-                ),
-              )
             ],
 
           ),

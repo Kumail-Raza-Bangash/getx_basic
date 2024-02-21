@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class PageThree extends StatelessWidget {
   const PageThree({super.key});
@@ -19,7 +20,7 @@ class PageThree extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          "Course price is USD ",
+          "Course price is USD " + Get.arguments['price'],
           style: TextStyle(fontSize: 30, color:Colors.grey.shade600),
         ),
       ),
