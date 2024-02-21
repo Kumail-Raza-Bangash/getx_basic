@@ -160,7 +160,7 @@ class HomePage extends StatelessWidget {
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(20.0),
                             ),),
-                          onPressed: () => null,
+                          onPressed: () => Get.toNamed('/more-page/${Random().nextInt(1000)}'),
                           child: Text(
                             "More",
                             style: TextStyle(

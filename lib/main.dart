@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       // Remove the debug banner
       debugShowCheckedModeBanner: false,
-      title: 'DBestech',
+      title: 'GetX Basic',
       theme: ThemeData(primarySwatch: Colors.deepOrange),
       home: const HomePage(),
       initialRoute: RouteHelper.initial,
