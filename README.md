@@ -1,16 +1,10 @@
 # getx_basic
 
-A new Flutter project.
+This basic GetX app is designed to demonstrate fundamental concepts of navigation and state management using GetX in Flutter. Leveraging the power of GetX, it provides a smooth and efficient routing system, enabling seamless transitions between screens.
 
-## Getting Started
+Through concise code snippets and clear explanations, this repository serves as an excellent starting point for developers looking to harness the capabilities of GetX for their Flutter applications. Dive in, explore, and elevate your Flutter development experience with GetX.
 
-This project is a starting point for a Flutter application.
+## Video:
 
-A few resources to get you started if this is your first Flutter project:
+https://github.com/Kumail-Raza-Bangash/getx_basic/assets/60749099/1a1304b0-a602-4153-8a6e-6c07cc0b9543
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
